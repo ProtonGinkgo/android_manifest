@@ -113,8 +113,16 @@
   <project name="android_vendor_lawnicons" path="vendor/lawnicons" remote="proton" groups="proton" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
 
-  <!-- device repos -->
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="proton-ginkgo" />
+
+  <!-- Device -->
   <project path="device/proton/sepolicy" name="android_device_proton_sepolicy" remote="proton-ginkgo" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="proton-ginkgo" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="proton-ginkgo" />
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom-caf_sm8150_audio" remote="proton-ginkgo" revision="sc" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom-caf_sm8150_display" remote="proton-ginkgo" revision="sc" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom-caf_sm8150_media" remote="proton-ginkgo" revision="sc" />
 </manifest>
