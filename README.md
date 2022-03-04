@@ -17,7 +17,7 @@ This is a large download that will take approximately 100 GB of disk space, so p
 ```bash
 . build/envsetup.sh
 lunch ginkgo-userdebug
-m proton
+make proton
 ```
 
 Good luck!
