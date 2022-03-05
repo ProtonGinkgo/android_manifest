@@ -76,6 +76,9 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Nfc" />
 
+  <!-- Packages Modules -->
+  <remove-project name="platform/packages/modules/adb" />
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
