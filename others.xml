@@ -43,13 +43,9 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.1-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom" remote="arrow" revision="arrow-12.1-caf-sm8150" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="arrow" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="arrow" revision="arrow-12.1-caf"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los"/>
 
   <!-- Packages stuff -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="arrow" />
@@ -57,7 +53,6 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
 
   <!-- Prebuilts stuff -->
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="PixelExperience/prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="twelve" clone-depth="1" />
