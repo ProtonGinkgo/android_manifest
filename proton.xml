@@ -81,7 +81,7 @@
   <remove-project name="platform/external/android-nn-driver" />
   <project name="android_external_android-nn-driver" path="external/android-nn-driver" remote="proton" groups="proton" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="proton" groups="proton" />
+  <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="proton-ginkgo" groups="proton" />
   <remove-project name="platform/system/vold" />
   <project name="android_system_vold" path="system/vold" remote="proton-ginkgo" groups="proton" />
 
